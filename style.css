@@ -152,3 +152,48 @@ width: 100%;
 	color: #E32843;
 	background-color: #ffff;
 }
+/*section three section three*/
+.section-three {
+display: flex;
+justify-content: space-between;
+}
+.section-three .right-image-1 {
+	height: 440px;
+	margin-top: -37px;
+	width: 38%;
+}
+.section-three .right-image-1 img {
+height: 100%;
+width: 100%;
+}
+.left-content-1 {
+width: 40%;
+}
+.left-content-1 input {
+	width: 121%;
+	margin-left: 0px;
+	height: 33px;
+	margin: 11px;
+	border: none;
+	border-bottom: 2px dotted black;
+}
+.section-three {
+	width: 100%;
+	height: 400px;
+	padding-top: 37px;
+	background-color: #E32944;
+}
+.left-content-1 .submit {
+	width: 217px;
+height: 42px;
+border-bottom: none;
+border-radius: 10px;
+color: #E32944;
+font-weight: bold;
+}
+.left-content-1 .submit:hover {
+	background-color: #E32843;
+	color: #fff;
+	border: 2px solid #ffff;
+	cursor: pointer;
+}
