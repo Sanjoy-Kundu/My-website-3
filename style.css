@@ -1,0 +1,53 @@
+body {
+	background-color:#E32843;;
+}
+.container {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+/* main header--main--header--*/
+.full-header {
+	background-color: #E32843;
+	display: flex;
+	justify-content: space-between;
+}
+header {
+	border-bottom: 1px dotted black;
+}
+.full-header .left-logo {
+}
+.left-logo h1 {
+font-size: 50px;
+color: #ffff;
+}
+.left-logo h1:hover {
+	color: #000000;
+}
+/*right option right option right option*/
+.full-header .right-nav {
+	height: 40px;
+	width: auto;
+	margin-top: 43px;
+}
+.full-header .right-nav ul {
+list-style: none;
+}
+.full-header .right-nav li {
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.full-header .right-nav a {
+	text-decoration: none;
+	font-size: 21px;
+	color: #ffff;
+}
+.full-header .right-nav a:hover {
+	color: #000000;
+}
+#active {
+	color:#000000;
+}
