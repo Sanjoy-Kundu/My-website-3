@@ -197,3 +197,58 @@ font-weight: bold;
 	border: 2px solid #ffff;
 	cursor: pointer;
 }
+/*section four section four*/
+.section-number-4 {
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+}
+.section-number-4 h5 {
+	font-size: 24px;
+	text-align: center;
+	color: #544;
+
+}
+.section-number-4 h1 {
+	text-align: center;
+	color: #414141;
+	font-size: 38px;
+	font-weight: bolder;
+}
+.section-number-4 .two-per-section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item-one {
+	height: 145px;
+	width: 40%;
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+}
+.item-one img {
+	height: 141px;
+	width: 133px;
+	border-radius: ;
+	border: 2px solid red;
+}
+.item-one .right-right-write {
+padding-left: 35px;
+}
+.item-one .right-right-write:hover {
+background-color: #E32843;
+color: #fff;
+}
+.item-one .right-right-write h4 {
+	font-size: 27px;
+	line-height: 3px;
+	font-style: italic;
+}
+.right-right-write p {
+	text-align: justify;
+	font-size: 17px;
+	font-weight: normal;
+}
