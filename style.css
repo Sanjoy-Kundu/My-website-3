@@ -252,3 +252,58 @@ color: #fff;
 	font-size: 17px;
 	font-weight: normal;
 }
+/*section five section five*/
+.section-five {
+	background-color: #E32944;
+	height: 500px;
+	width: 100%;
+	margin-top: 153px;
+}
+.section-five-center {
+	height: 400px;
+	width: 76%;
+	margin: 0 auto;
+}
+.section-five-center h5 {
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #414141;
+	font-weight: bolder;
+	
+}
+.section-five-center  h1 {
+	text-align: center;
+	font-size: 50px;
+	line-height: 10px;
+	color: #fff;
+}
+.section-five-center  h1 span {
+	color: #414141;
+}
+.section-five-center p {
+text-align: center;
+width: 76%;
+margin: 0 auto;
+font-size: 23px;
+color: #FFEAC1;
+}
+.section-five-center  button {
+	padding: 13px 39px;
+	display: flex;
+	margin-top: 19px;
+	margin: 38px auto;
+	background-color: #ffff;
+}
+.section-five-center  button:hover {
+	background-color: #E32843;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+.section-five-center  button a {
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
