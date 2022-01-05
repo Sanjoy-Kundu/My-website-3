@@ -1,5 +1,5 @@
 body {
-	background-color:#E32843;;
+	/* background-color:#E32843; */
 }
 .container {
 	width: 90%;
@@ -15,6 +15,7 @@ body {
 }
 header {
 	border-bottom: 1px dotted black;
+	background-color:#E32843;
 }
 .full-header .left-logo {
 }
@@ -50,4 +51,104 @@ list-style: none;
 }
 #active {
 	color:#000000;
+}
+section {
+	
+	background-color: #E32843;
+	width: 100%;
+	height: 550px;
+	padding-top: 37px;
+}
+.full-section-one {
+display: flex;
+justify-content: space-between;
+}
+.full-section-one .left-content {
+
+}
+.full-section-one .left-content h4 {
+font-size: 39px;
+}
+.full-section-one .left-content h1 {
+font-size: 68px;
+}
+.full-section-one .left-content h3 {
+font-size: 32px;
+}
+.full-section-one .left-content a {
+	text-decoration: none;
+	background-color: #ffff;
+	padding: 16px 40px;
+	margin-left: 0px;
+	margin-right: 9px;
+}
+.full-section-one .left-content a:hover {
+	background-color: #E32843;
+	color: #ffff;
+	border: 2px solid #fff;
+	font-weight: bolder;
+}
+.full-section-one img {
+	height: 386px;
+	width: 398px;
+	margin-right: 111px;
+	box-sizing: border-box;
+}
+/* section number two section number two*/
+.section-2 {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.section-2 .left-img {
+	height: 590px;
+	width: 49%;
+	margin-top: -37px;
+}
+.section-2 .left-img img {
+height: 100%;
+width: 100%;
+}
+.section-2 .content-write {
+	width: 39%;
+	margin-right: 117px;
+	line-height: 17px;
+}
+.section-2 .content-write p {
+	font-size: 20px;
+	font-weight: bolder;
+	color: gray;
+}
+.section-2 .content-write h1 {
+	font-size: 36px;
+	color: #645b5b;
+}
+.section-2 .content-write .second-p {
+	color: #a28b8b;
+	font-weight: normal;
+}
+.section-2 .content-write h3 {
+	color: silver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+}
+.section-2 .content-write h5 {
+	color: #cc7474;
+	font-style: normal;
+	font-weight: normal;
+}
+.section-2 .content-write a {
+	text-decoration: none;
+	background-color: #E32944;
+	padding: 15px 33px;
+	font-weight: bold;
+	color: #fff;
+}
+.section-2 .content-write a:hover {
+	border: 2px solid black;
+	color: #E32843;
+	background-color: #ffff;
 }
